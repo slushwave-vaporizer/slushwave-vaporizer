@@ -1,0 +1,8 @@
+Flask
+pysndfx
+librosa
+celery
+redis
+numpy
+Flask-Cors
+soundfile

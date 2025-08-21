@@ -1,0 +1,27 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "Fix preset processing to apply dramatic audio effects",
+        "details": "1. Fix the preset processing backend to actually apply effects during initial processing\n2. Make presets create noticeable, dramatic audio transformations\n3. Ensure each preset (Slushwave Classic, Vaporwave Dream, etc.) applies distinct effects\n4. Test that processed audio sounds different from original based on preset selection\n5. Keep fine-tune effects working as they currently do",
+        "status": "completed",
+        "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "Add comprehensive fine-tuning effects suite",
+        "details": "1. Re-add pitch shift control to fine-tuning\n2. Add reverb effect with controls (room size, decay time, wet/dry mix)\n3. Add phaser effect with controls (rate, depth, feedback)\n4. Add delay/echo effect with controls (delay time, feedback, wet/dry mix)\n5. Add chorus effect with controls (rate, depth, delay)\n6. Add distortion/overdrive effect with controls (gain, tone)\n7. Add EQ controls (high, mid, low frequencies)\n8. Ensure all effects work in real-time via Web Audio API like current effects\n9. Add 'Apply Changes' buttons for permanent effect rendering",
+        "status": "completed",
+        "priority": "high"
+      },
+      "3": {
+        "id": "3",
+        "content": "Deploy and test the enhanced application",
+        "details": "1. Deploy the updated application with enhanced presets and effects\n2. Test all new fine-tuning effects work correctly\n3. Verify presets create noticeable audio changes\n4. Test that both real-time and permanent effect application work\n5. Provide working URL to user",
+        "status": "completed",
+        "priority": "high"
+      }
+    }
+  }
+}
